@@ -1,0 +1,16 @@
+body {
+    background:#ffffff url("background.png") repeat-x;
+    color:#000000;
+    font:100% Impact;
+}
+
+h1 {
+    color:#404040;
+    text-align:center;
+}
+
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
