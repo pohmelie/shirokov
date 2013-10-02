@@ -41,7 +41,7 @@
     if (from == null) {
       from = 0;
     }
-    return Math.min(to, Math.floor(Math.random() * (to - from)));
+    return from + Math.min(to, Math.floor(Math.random() * (to - from)));
   };
 
   gen_phrase = function(len) {

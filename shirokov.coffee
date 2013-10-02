@@ -53,7 +53,7 @@ for phrase in phrases
 
 random = (to, from=0) ->
 
-    return Math.min(to, Math.floor(Math.random() * (to - from)))
+    return from + Math.min(to, Math.floor(Math.random() * (to - from)))
 
 
 gen_phrase = (len) =>
